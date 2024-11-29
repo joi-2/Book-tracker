@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Book Tracker</h1>
+    </header>
+    <main>
+        <section class="book-list">
+            <h2>Books</h2>
+            <ul id="books">
+                <!-- Books will be listed here -->
+                <li>
+                    <span class="book-title">The Great Gatsby</span>
+                    <button class="status-button read">Read</button>
+                </li>
+                <li>
+                    <span class="book-title">To Kill a Mockingbird</span>
+                    <button class="status-button unread">Unread</button>
+                </li>
+            </ul>
+        </section>
+        <section class="add-book">
+            <h2>Add a New Book</h2>
+            <form id="book-form">
+                <input type="text" id="book-title" placeholder="Book Title" required>
+                <button type="submit">Add Book</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Book Tracker &copy; 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
