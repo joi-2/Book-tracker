@@ -1,2 +1,2 @@
 # Book-tracker
-This is from book tracker.
+A book tracker is a tool used to manage and keep track of books you have read, are currently reading, or want to read in the future. It helps organize your reading habits, set goals, and reflect on your reading journey.
